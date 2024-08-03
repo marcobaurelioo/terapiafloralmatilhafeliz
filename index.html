@@ -17,10 +17,6 @@
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/jpg">
     <!-- Favicon padrão para navegadores mais antigos -->
 
-    <script src="plugins/scrollreveal-4.0.9/scrollreveal.js"></script>
-    <link rel="stylesheet" href="plugins/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="plugins/boxicons-2.1.4/css/boxicons.min.css">
-
     <title>Terapia Floral Matilha Feliz</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -385,36 +381,9 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="plugins/jquery-3.7.1/jquery.min.js"></script>
-    <script src="plugins/scrollreveal-4.0.9/scrollreveal.js"></script>
-    <script src="plugins/smooth-scroll-master/dist/smooth-scroll.min.js"></script>
     <script src="assets/js/script.js"></script>
 
     <script>
-
-
-        var scroll = new SmoothScroll('a[href*="#"]', {
-            // Selectors
-            ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
-            header: null, // Selector for fixed headers (must be a valid CSS selector)
-            topOnEmptyHash: true, // Scroll to the top of the page for links with href="#"
-            // Speed & Duration
-            speed: 100, // Integer. Amount of time in milliseconds it should take to scroll 1000px
-            speedAsDuration: true, // If true, use speed as the total duration of the scroll animation
-            durationMax: null, // Integer. The maximum amount of time the scroll animation should take
-            durationMin: null, // Integer. The minimum amount of time the scroll animation should take
-            clip: true, // If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
-            offset: () => {
-                return 85;
-            },
-            // Easing
-            easing: 'easeInOutCubic', // Easing pattern to use
-            // History
-            updateURL: false, // Update the URL on scroll
-            popstate: false, // Animate scrolling with the forward/backward browser buttons (requires updateURL to be true)
-            // Custom Events
-            emitEvents: true // Emit custom events 
-        });
-
         $(document).ready(function () {
             $(".link-checkout").attr("href", "https://pay.kiwify.com.br/C1EmHz3")
             $(".link-checkout").attr("target", "_blank")
