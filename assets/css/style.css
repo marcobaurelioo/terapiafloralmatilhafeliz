@@ -113,7 +113,7 @@ body {
 .section1 {
     width: 100dvw;
     min-height: 86dvh;
-    background-image: url('../images/sec1.jpg');
+    background-image: url('../images/webp/sec1.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,7 +144,7 @@ body {
 }
 
 .video-overlay {
-    background-image: url('../images/maxresdefault.jpg');
+    background-image: url('../images/webp/maxresdefault.webp');
     top: 0;
     left: 0;
     width: 100%;
@@ -209,7 +209,7 @@ body {
     .section1 {
         width: 100dvw;
         height: 100dvh;
-        background-image: url('../images/sec1.jpg');
+        background-image: url('../images/webp/sec1.webp');
     }
 
     .txt-center {
@@ -259,7 +259,7 @@ body {
 
 .section3 {
     max-width: 100dvw;
-    background-image: url('../images/B3PET3.jpg');
+    background-image: url('../images/webp/B3PET3.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -278,7 +278,7 @@ body {
 
 .section4 {
     width: 100dvw;
-    background-image: url('../images/B4PET.jpg');
+    background-image: url('../images/webp/B4PET.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -306,7 +306,7 @@ body {
 
 .section5 {
     width: 100dvw;
-    background-image: url('../images/B2PET2.jpg');
+    background-image: url('../images/webp/B2PET2.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -321,7 +321,7 @@ body {
 
 .section6 {
     width: 100dvw;
-    background-image: url('../images/B4PET.jpg');
+    background-image: url('../images/webp/B4PET.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -387,7 +387,7 @@ body {
 
 .section6 {
     width: 100dvw;
-    background-image: url('../images/B4PET.jpg');
+    background-image: url('../images/webp/B4PET.webp');
     overflow: hidden;
 }
 
